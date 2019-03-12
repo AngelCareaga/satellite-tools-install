@@ -1,0 +1,20 @@
+## CONFIG FOR SUBSCRIPTION
+satellite_subs_parent_user: "user" 
+satellite_subs_parent_pass: "pass"
+satellite_subs_parent_pool: "pool-id"
+
+## CONFIG FOR REPOS
+list_repos: "rhel-7-server-rpms;rhel-server-rhscl-7-rpms;rhel-7-server-satellite-6.4-rpms;rhel-7-server-satellite-maintenance-6-rpms;rhel-7-server-ansible-2.6-rpms"
+
+## CONFIG SATELLITE PARAMS
+scenario: "satellite"
+fn_initial_organization: "initial_organization_prueba"
+fn_initial_location: "initial_location_prueba"
+fn_admin_username: "admin"
+fn_admin_password: "satellite"
+fn_proxy_dns_managed: "true"
+fn_proxy_dhcp_managed: "false"
+
+## CONFIG LOAD MANIFEST
+load_manifest_subs: "true"
+name_manifest_subs: "manifest_Prueba-Satellite_20190312T181826Z.zip"
