@@ -1,6 +1,6 @@
 # satellite-tools-install
 
-Es un proyecto creado con Ansible y Bash Shell.
+Es un proyecto creado con Bash Shell.
 
 ## Utilerias para la ayuda en la automatización de la instalación de **Satellite 6.4**
 
@@ -18,7 +18,7 @@ El archivo de configuración declara todo lo necesario para configurar a necesid
 config-satellite-tools.yml
 ```
 
-Para lanzar la instañación dentro del nodo **Bastion**
+Para lanzar la instañación dentro del nodo
 
 ```
 $ ./install-satellite-all.sh
