@@ -26,6 +26,7 @@ yumInstallSatellite(){
 
 
 yumInstallConfigureChronydAndSos(){
+    echo " =======  INSTALL PACKAGE CHRONY AND SOS  ========"
     yum -y install chrony
     systemctl start chronyd
     systemctl enable chronyd

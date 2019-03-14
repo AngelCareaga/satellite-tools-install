@@ -34,6 +34,7 @@ echo " ======= INSTALLING ========"
 
 configureFirewallCMD # Configuration ports in firewall
 
+## removeAndUnRegisterSubcription # Optional for remove previous subscription
 subscriptionRegisterAttach # Subscription and Attach
 disableAllRepos # Disable default repos
 enableReposCFG # Enable repos for Satellite
@@ -41,6 +42,7 @@ setReleaseUnset # Ensure that Red Hat Subscription Manager is not set to use a s
 
 yumPrepare # Prepare YUM 
 yumInstallSatellite # Install Satellite Package
+yumInstallConfigureChronydAndSos # Install chrony & sos Package
 
 
 # ======= SATELLITE INSTALLER =======
